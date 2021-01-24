@@ -182,14 +182,14 @@ header ul li:hover >a{
     cursor: pointer;
     display: none;
     background-repeat: no-repeat;
-    background-image: url(image/menu.png);
+    background-image: url(image/menuBtn.jpg);
     background-size: 35px;
     background-position: center;
 }
 
 
 .toggle-menu.toggleClicked{
-    background-image: url(image/close.png);
+    background-image: url(image/close.jpg);
     width: 30px;
     height: 30px;
     cursor: pointer;
