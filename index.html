@@ -197,8 +197,11 @@
             var lis= menuToggle.querySelectorAll("li");
             lis.forEach(li=>{
                 li.addEventListener("click",()=>{
-                    toggleBtn.classList.toggle("toggleClicked");
-                    menuToggle.classList.toggle("toggleClicked");
+                    if(screen.width <= 768){
+                        toggleBtn.classList.toggle("toggleClicked");
+                        menuToggle.classList.toggle("toggleClicked");
+                    }
+                    
                 })
             })
         })
